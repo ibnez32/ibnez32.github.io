@@ -1,0 +1,108 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+}
+.first-caro .carousel-caption{ top:40px}
+.first-caro .w-100{ max-height:720px}
+.caption1 h1{ color:#f7a55b; font-size:80px; text-shadow:none; margin-top:100px}
+.caption2 h2{color:#f7a55b; font-size:60px;}
+.caption2{ left:200px}
+.carousel-caption.caption3{ top:20px}
+.caption3 h2{ font-size:60px;color:#f7a55b; margin-bottom:15px}
+.table-content{ text-align:left; margin-top:40px}
+.table-content li{ text-align:left; font-size:36px; color:#f9ddad}
+.table-content li:before{content: "";
+    background-image: url(../images/direction-icon.png);
+    height: 30px;
+    width: 60px;
+    position: absolute;
+    background-size: cover;
+    left: -110px;
+    margin-top: 12px;
+    background-position: center;
+    background-repeat: no-repeat;
+	
+	}
+	.caption3 ul li{ text-align:left; font-size:34px;line-height: 1.2; margin-bottom:10px; color:#f9ddad}
+	.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.carousel-caption.caption4{ left:0; right:0; bottom:0; top:0; padding-top:0; background:#000}
+.caption4 h2,.caption5 h2,.caption6 h2{font-size:50px;color:#f7a55b; padding-bottom:15px; margin-top:20px;background:#000}
+.caption4 img{ max-height:630px}
+.caption5 h2{ margin-top:0; padding-top:20px}
+
+.carousel-caption.caption5{ left:10%; right:10%; top:0; bottom:0; background:#fff; padding-top:0}
+.carousel-caption.caption5 img{ max-height:550px}
+.carousel-caption.caption6{ left: 0;
+    right: 0;
+    top: 0;
+    bottom: 50px;
+    max-width: 1000px;
+    margin: 0 auto;}
+.carousel-caption.caption6 video{ width:100%; height:100%}
+.caption6 .home-img{ float:left;}
+.caption6 .home-img img{ width:100%; max-width:70px; margin-top:25px}
+.caption6 .prv-next{ float:right;margin-top:-60px;}
+.caption6 .prv-next img{ width:100%; max-width:70px;}
+.left-di{margin-right:5px;}
+.right-di{margin-left:5px;}
+.caption8 ul li{ font-size:40px; text-align:justify}
+#p-bg{ }
+#p-list{  float:left; width:10.6%; padding:10px 0; color:#000; z-index:55555; cursor:pointer; font-weight:bold; font-size:16px}
+#p-bg #p-list:first-child{ margin-left:2.5%}
+#p-bg #p-list:last-child{ margin-right:1%}
+.m1{ background:#dadada; color:#666 !important}
+.m2{ background:#244d9c; color:#fff !important}
+.m3{ background:#042b70; color:#fff !important}
+.m4{ background:#010101; color:#fff !important}
+.m5{ background:#780500; color:#fff !important}
+.m6{ background:#e2c505; color:#333 !important}
+.m7{ background:#43740b; color:#fff !important}
+.m8{ background:#dd880b; color:#900 !important}
+.m9{ background:#010101; color:#630 !important}
+
+@media(max-width:767px){
+	.d-none {
+    display: block !important;
+}
+.caption1 h1,.caption2 h2,.caption3 h2,.caption4 h2,.caption5 h2,.caption6 h2,.caption7 h2,.caption8 h2{ font-size:36px}
+
+.table-content li {
+   font-size:18px;
+}
+.table-content li:before {
+   
+    height: 20px;
+    width: 35px;
+    
+    left: -60px;
+    margin-top: 5px;
+    
+}
+.caption3 ul li{ font-size:16px}
+
+}
+	
